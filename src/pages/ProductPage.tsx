@@ -44,11 +44,11 @@ const ProductPage = () => {
             // Set products
             setProducts(allProducts);
         }
-    }, [category, group, products]);
+    }, [category, group]);
 
     return (
         <div>
-            <div className="grid grid-cols-8 gap-2 bg-gray-50 rounded-lg p-10">
+            <div className="grid grid-cols-8 gap-2 bg-gradient-to-t from-[#0070E0] via-[#01C091] to-[#72E5C9] bg-repeat-x rounded-lg p-10">
                 {CategoryItem?.group.map((item, index, arr) => {
                     return (
                         <Link key={index} to={`/${CategoryItem.path}/${index !== arr.length - 1 ? index : ""}`}>

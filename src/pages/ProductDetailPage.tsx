@@ -24,7 +24,7 @@ const ProductDetailPage = () => {
         <div className="grid grid-cols-2 gap-10">
             <div className="flex flex-col gap-5">
                 <img src={CategoryItem.img} alt="" className="rounded-lg w-full object-center" />
-                <span className="bg-sky-200 p-1 rounded-sm text-sky-600 text-md font-normal">
+                <span className="bg-green-200 p-1 rounded-sm text-green-600 text-md font-normal">
                     100% genuine product, design may vary by shipment
                 </span>
                 <img src={CategoryItem.img} alt="" className="rounded-lg border-2 border-sky-500" width={100} />
