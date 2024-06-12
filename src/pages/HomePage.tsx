@@ -8,7 +8,6 @@ import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious
 import { AspectRatio } from "@radix-ui/react-aspect-ratio";
 import ProductCard from "@/components/ProductCard";
 import { Link } from "react-router-dom";
-import CategoryItem from "@/components/CategoryItem";
 
 const HomePage = () => {
     const plugin = React.useRef(Autoplay({ delay: 2000, stopOnInteraction: true }));
